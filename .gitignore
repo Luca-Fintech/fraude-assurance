@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+fraud-detection-env/
+venv/
+.venv/
+env/
+
+# Data (trop lourd pour GitHub)
+data/
+
+# Modèles compilés (pkl peut être lourd)
+# models/   ← décommente si tu veux exclure le pickle
+
+# Figures générées (optionnel — les garder pour le README)
+# figures/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Secrets / env
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/
